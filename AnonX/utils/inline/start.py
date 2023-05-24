@@ -9,7 +9,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Aᴅᴅ ᴍᴇ",
+                text="✨Aᴅᴅ ᴍᴇ🫧",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -19,7 +19,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="😵‍💫Sᴇᴛᴛɪɴɢs🫨", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,18 +30,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ",
+                text="💥Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ✨",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper"
+                text="🥀Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs👀", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="Cᴏᴍᴍᴜɴɪᴛʏ", url=config.SUPPORT_GROUP
+                text="🍃Cᴏᴍᴍᴜɴɪᴛʏ❄️", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="Exᴄʟᴜsɪᴠᴇ", url=config.SUPPORT_GROUP
@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="Oᴡɴᴇʀ", url=config.SUPPORT_GROUP                
+                text="🌈Oᴡɴᴇʀ🌿", url=config.SUPPORT_GROUP                
             )
         ],
      ]

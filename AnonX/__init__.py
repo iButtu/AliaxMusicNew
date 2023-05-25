@@ -21,7 +21,7 @@ sudo()
 # Clients
 app = AnonXBot()
 userbot = Userbot()
-telethn = TelegramClient("AnonX", API_ID, API_HASH)
+telethn = TelegramClient("AnonX")
 
 
 from .platforms import *

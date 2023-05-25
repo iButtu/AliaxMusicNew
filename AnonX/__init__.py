@@ -23,12 +23,9 @@ app = AnonXBot()
 userbot = Userbot()
 telethn = TelegramClient("AnonX", API_ID, API_HASH)
 
-else:
-    from AnonX.config import Development as Config
-
-    API_ID = Config.API_ID
-    API_HASH = Config.API_HASH
-
+from AnonX.config import Development as Config
+API_ID = Config.API_ID
+API_HASH = Config.API_HASH
 
 from .platforms import *
 

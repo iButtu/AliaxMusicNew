@@ -10,6 +10,7 @@ from youtubesearchpython.__future__ import VideosSearch
 from AnonX import app
 from unidecode import unidecode
 from config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
+from AnonX.strings.filters import command
 
 
 def changeImageSize(maxWidth, maxHeight, image):

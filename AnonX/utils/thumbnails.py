@@ -114,14 +114,14 @@ async def gen_thumb(videoid, user_id, original_chat_id):
         background.paste(x, (1065, 260), mask=x)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("FallenMusic/assets/font2.ttf", 30)
-        font2 = ImageFont.truetype("FallenMusic/assets/font2.ttf", 30)
-        arial = ImageFont.truetype("FallenMusic/assets/font2.ttf", 30)
-        name_font = ImageFont.truetype("FallenMusic/assets/font.ttf", 30)
+        font = ImageFont.truetype("FallenMusic/assets/Fino.ttf", 30)
+        font2 = ImageFont.truetype("FallenMusic/assets/Fino.ttf", 30)
+        arial = ImageFont.truetype("FallenMusic/assets/Fino.ttf", 30)
+        name_font = ImageFont.truetype("FallenMusic/assets/Fino.ttf", 30)
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (1065, 5), f"FALLEN MUSIC", fill="white", font=name_font
+            (1065, 5), f"SOLO TREEE", fill="white", font=name_font
         )
 
         draw.text(
